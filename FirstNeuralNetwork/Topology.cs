@@ -1,6 +1,6 @@
 ﻿namespace FirstNeuralNetwork;
 
-internal class Topology
+public class Topology
 {
     public Topology(int inputCount, int outputCount, params int[] layers)
     {

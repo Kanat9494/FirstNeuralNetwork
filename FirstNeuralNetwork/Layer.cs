@@ -1,6 +1,6 @@
 ﻿namespace FirstNeuralNetwork;
 
-internal class Layer
+public class Layer
 {
     public Layer(List<Neuron> neurons, NeuronType type = NeuronType.Normal)
     {

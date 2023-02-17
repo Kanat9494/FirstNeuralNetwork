@@ -1,6 +1,6 @@
 ﻿namespace FirstNeuralNetwork;
 
-internal class NeuralNetwork
+public class NeuralNetwork
 {
     public NeuralNetwork(Topology topology)
     {

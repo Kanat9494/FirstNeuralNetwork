@@ -24,7 +24,11 @@ public class Neuron
             sum = sum + inputs[i] * Weights[i];
         }
 
-        Output = Sigmoid(sum);
+        if (TypeOfNeuron != NeuronType.Input)
+            Output = Sigmoid(sum);
+        else
+            Output = sum;
+
         return Output;
     }
 
