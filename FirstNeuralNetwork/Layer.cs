@@ -9,4 +9,13 @@ internal class Layer
     }
     public List<Neuron> Neurons { get; }
     public int Count => Neurons?.Count ?? 0;
+
+    public List<double> GetSignals()
+    {
+        var result = new List<double>();
+        foreach (var neuron in Neurons)
+            result.Add(neuron.Output);
+
+        return result;
+    }
 }
