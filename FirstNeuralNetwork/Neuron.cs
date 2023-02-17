@@ -1,6 +1,6 @@
 ﻿namespace FirstNeuralNetwork;
 
-internal class Neuron
+public class Neuron
 {
     public Neuron(int inputCount, NeuronType type = NeuronType.Normal)
     {

@@ -1,6 +1,6 @@
 ﻿namespace FirstNeuralNetwork;
 
-enum NeuronType
+public enum NeuronType
 {
     Input = 0,
     Normal = 1,
